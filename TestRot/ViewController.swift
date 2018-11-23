@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func click(_ sender: UIButton) {
+        sender.setTitle("了不得", for: UIControl.State.normal)
+    }
+    
 }
 
